@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct LandmarkListView: View {
-    var landmarks = ["Kadikoy", "Ushkudar", "Capadoccia", "Peribacalari"]
+    var landmarks = ["Kadikoy", "Uskudar", "Capadocia", "Peribacalari"]
     var body: some View {
         List{
             ForEach(landmarks, id: \.self){ landmark in
-                NavigationLink(destination: LandmarkView()){
+                NavigationLink(destination: LandmarkView(name: landmark)){
                     HStack{
-                        Image(systemName: "42.circle")
+                        Image(landmark.lowercased())
+                            .resizable()
+                            .frame(width: 30, height: 30)
+                            .cornerRadius(2.0)
                         Text(landmark)
                     }
                 }
