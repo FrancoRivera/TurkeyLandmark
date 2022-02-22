@@ -13,6 +13,7 @@
 		483ACB4E27C45F9F006E6C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483ACB4D27C45F9F006E6C30 /* Assets.xcassets */; };
 		483ACB5127C45F9F006E6C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483ACB5027C45F9F006E6C30 /* Preview Assets.xcassets */; };
 		483ACB5827C46004006E6C30 /* LandmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ACB5727C46004006E6C30 /* LandmarkView.swift */; };
+		48F30DD727C5A87600311BE5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F30DD627C5A87600311BE5 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		483ACB4D27C45F9F006E6C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483ACB5027C45F9F006E6C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		483ACB5727C46004006E6C30 /* LandmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkView.swift; sourceTree = "<group>"; };
+		48F30DD627C5A87600311BE5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				483ACB4927C45F9E006E6C30 /* TurkeyLandmarksApp.swift */,
+				48F30DD627C5A87600311BE5 /* Landmark.swift */,
 				4818EAAA27C467C800E4BCD2 /* Views */,
 				483ACB4D27C45F9F006E6C30 /* Assets.xcassets */,
 				483ACB4F27C45F9F006E6C30 /* Preview Content */,
@@ -155,6 +158,7 @@
 				483ACB4A27C45F9E006E6C30 /* TurkeyLandmarksApp.swift in Sources */,
 				483ACB5827C46004006E6C30 /* LandmarkView.swift in Sources */,
 				4818EAA927C4610F00E4BCD2 /* LandmarkListView.swift in Sources */,
+				48F30DD727C5A87600311BE5 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
