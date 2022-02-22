@@ -36,6 +36,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4818EAAA27C467C800E4BCD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				483ACB4B27C45F9E006E6C30 /* ContentView.swift */,
+				4818EAA827C4610F00E4BCD2 /* LandmarkListView.swift */,
+				483ACB5727C46004006E6C30 /* LandmarkView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		483ACB3D27C45F9E006E6C30 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				483ACB4927C45F9E006E6C30 /* TurkeyLandmarksApp.swift */,
-				483ACB4B27C45F9E006E6C30 /* ContentView.swift */,
-				4818EAA827C4610F00E4BCD2 /* LandmarkListView.swift */,
-				483ACB5727C46004006E6C30 /* LandmarkView.swift */,
+				4818EAAA27C467C800E4BCD2 /* Views */,
 				483ACB4D27C45F9F006E6C30 /* Assets.xcassets */,
 				483ACB4F27C45F9F006E6C30 /* Preview Content */,
 			);
