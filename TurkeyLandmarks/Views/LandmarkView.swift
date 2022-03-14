@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LandmarkView: View {
-    var landmark: Landmark
+    @Binding var landmark: Landmark
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20.0) {
@@ -28,10 +28,17 @@ struct LandmarkView: View {
                             .font(.title3)
                     }
                     Spacer()
-                    HStack{
-                        Image(systemName: "heart.fill")
-                            .foregroundColor(.pink)
-                        Text("Favorite Place")
+                    if landmark.isFavorite{
+                        HStack{
+                            Image(systemName: "heart.fill")
+                                .foregroundColor(.pink)
+                            Text("Favorite Place")
+                        }
+                    } else{
+                        Button("Favorite"){
+                            // toggle
+                            landmark.isFavorite.toggle()
+                        }
                     }
                 }
                 HStack{
@@ -55,23 +62,26 @@ struct LandmarkView: View {
                     Text(landmark.description)
                 }
                 Link("See on Trip Advisor", destination: URL(string: landmark.link)!)
+                Spacer()
+                if landmark.isFavorite{
+                    Button("Remove from favorites"){
+                        landmark.isFavorite = false
+                    }
+                    .foregroundColor(.red)
+                }
             }
             .padding()
             .navigationTitle(landmark.name)
-            
-//        TODO: Add Rating Stars.
-//        TODO: Add link to TripAdvisor or similar.
-//        TODO: Favorite a landmark
-//        TODO: Add new landmarks from the app
             
         }
     }
 }
 
-struct LandmarkView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView{
-            LandmarkView(landmark: landmarks[0])
-        }
-    }
-}
+//struct LandmarkView_Previews: PreviewProvider {
+//    @State var landmark = Landmark(Id: 1, name: "fajsldkf", picture: "lfkasjdlf", location: "ldkfjasl;dk", rating: 3.0, description: "lasdjkflas", link: "https://laskdfjasl.com")
+//    static var previews: some View {
+//        NavigationView{
+//            LandmarkView(landmark: $landmark)
+//        }
+//    }
+//}

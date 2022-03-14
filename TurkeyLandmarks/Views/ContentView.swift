@@ -11,6 +11,14 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             LandmarkListView()
+            // TODO: Navigation
+            // TODO: Filters is favorite or not
+            // TODO: Add new landmarks from the app
+            // ---------------
+            // TODO: App Design/Icons and Launchscreen
+            // TODO: Animations
+            // ---------------
+            // APIs...
         }
     }
 }
