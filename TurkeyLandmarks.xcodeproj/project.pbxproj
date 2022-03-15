@@ -13,17 +13,19 @@
 		483ACB4E27C45F9F006E6C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483ACB4D27C45F9F006E6C30 /* Assets.xcassets */; };
 		483ACB5127C45F9F006E6C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483ACB5027C45F9F006E6C30 /* Preview Assets.xcassets */; };
 		483ACB5827C46004006E6C30 /* LandmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ACB5727C46004006E6C30 /* LandmarkView.swift */; };
+		4858DBB927E0120500E1C046 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4858DBB827E0120500E1C046 /* LaunchScreen.swift */; };
 		48F30DD727C5A87600311BE5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F30DD627C5A87600311BE5 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4818EAA827C4610F00E4BCD2 /* LandmarkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkListView.swift; sourceTree = "<group>"; };
-		483ACB4627C45F9E006E6C30 /* TurkeyLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkeyLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		483ACB4627C45F9E006E6C30 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		483ACB4927C45F9E006E6C30 /* TurkeyLandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkeyLandmarksApp.swift; sourceTree = "<group>"; };
 		483ACB4B27C45F9E006E6C30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		483ACB4D27C45F9F006E6C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483ACB5027C45F9F006E6C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		483ACB5727C46004006E6C30 /* LandmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkView.swift; sourceTree = "<group>"; };
+		4858DBB827E0120500E1C046 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		48F30DD627C5A87600311BE5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +46,7 @@
 				483ACB4B27C45F9E006E6C30 /* ContentView.swift */,
 				4818EAA827C4610F00E4BCD2 /* LandmarkListView.swift */,
 				483ACB5727C46004006E6C30 /* LandmarkView.swift */,
+				4858DBB827E0120500E1C046 /* LaunchScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -59,7 +62,7 @@
 		483ACB4727C45F9E006E6C30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				483ACB4627C45F9E006E6C30 /* TurkeyLandmarks.app */,
+				483ACB4627C45F9E006E6C30 /* Landmarks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +104,7 @@
 			);
 			name = TurkeyLandmarks;
 			productName = TurkeyLandmarks;
-			productReference = 483ACB4627C45F9E006E6C30 /* TurkeyLandmarks.app */;
+			productReference = 483ACB4627C45F9E006E6C30 /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,6 +159,7 @@
 			files = (
 				483ACB4C27C45F9E006E6C30 /* ContentView.swift in Sources */,
 				483ACB4A27C45F9E006E6C30 /* TurkeyLandmarksApp.swift in Sources */,
+				4858DBB927E0120500E1C046 /* LaunchScreen.swift in Sources */,
 				483ACB5827C46004006E6C30 /* LandmarkView.swift in Sources */,
 				4818EAA927C4610F00E4BCD2 /* LandmarkListView.swift in Sources */,
 				48F30DD727C5A87600311BE5 /* Landmark.swift in Sources */,
@@ -303,7 +307,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.riverarivas.TurkeyLandmarks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Landmarks;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,7 +336,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.riverarivas.TurkeyLandmarks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Landmarks;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
